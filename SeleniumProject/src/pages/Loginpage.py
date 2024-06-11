@@ -22,6 +22,8 @@ class Loginpage(Locators):
         self.driver.get(my_login_url)
         self.driver.maximize_window()
 
+        #username login
+
     def input_login_username(self,username):
 
         username_input_locator = (By.NAME, "username")  #Initialise Locator
